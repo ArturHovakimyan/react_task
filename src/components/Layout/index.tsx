@@ -4,8 +4,6 @@ const Layout = () => {
 	return (
 		<>
 			<header>
-				<Link to="/">HomePage</Link>
-				<Link to="/about">AboutPage</Link>
 				<Link to="/blog">BlogPage</Link>
 			</header>
            <Outlet />
