@@ -1,7 +1,14 @@
-const HomePage = () => {
-  return (
-    <div><h1>HOME</h1></div>
-  )
-}
+import PageFirstItem from "./homePageItems/PageFirstItem";
 
-export default HomePage
+
+const HomePage = () => {
+	return (
+		<>
+			<div>
+				<PageFirstItem />
+			</div>
+		</>
+	);
+};
+
+export default HomePage;
