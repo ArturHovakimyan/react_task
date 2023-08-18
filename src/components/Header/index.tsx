@@ -1,32 +1,36 @@
 import "./style.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+
 
 const Header = () => {
 	return (
 		<div className="header">
 			<div className="universal-header">
-				<h2>
-					<Link to="/">Universal</Link>
-				</h2>
+				<NavLink to="/">
+					<img
+						src="icons/svg-header/svg"
+						alt="logo"
+					/>
+				</NavLink>
 			</div>
 			<div className="nav-list">
 				<span>
-					<Link to="/">ԳԼԽԱՎՈՐ</Link>
+					<NavLink to="/">ԳԼԽԱՎՈՐ</NavLink>
 				</span>
 				<span>
-					<Link to="">ՄԵՐ ՄԱՍԻՆ</Link>
+					<NavLink to="/aboutus">ՄԵՐ ՄԱՍԻՆ</NavLink>
 				</span>
 				<span>
-					<Link to="">ԱՐՏԱԴՐԱՆՔ</Link>
+					<NavLink to="/product">ԱՐՏԱԴՐԱՆՔ</NavLink>
 				</span>
 				<span>
-					<Link to="">ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ</Link>
+					<NavLink to="/services">ԾԱՌԱՅՈՒԹՅՈՒՆՆԵՐ</NavLink>
 				</span>
 				<span>
-					<Link to="">ԳՈՐԾԸՆԿԵՐՆԵՐ</Link>
+					<NavLink to="/partners">ԳՈՐԾԸՆԿԵՐՆԵՐ</NavLink>
 				</span>
 				<span>
-					<Link to="">ՀԵՏԱԴԱՐՁ ԿԱՊ</Link>
+					<NavLink to="/feedback">ՀԵՏԱԴԱՐՁ ԿԱՊ</NavLink>
 				</span>
 
 				<div className="image-box">

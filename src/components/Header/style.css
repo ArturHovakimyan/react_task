@@ -21,13 +21,15 @@ a {
 	justify-content: center;
 	width: 150px;
 	height: 78px;
+    margin-left: 40px;
 }
+
 
 .nav-list {
 	margin-right: 10px;
 	display: flex;
 	align-items: center;
-	margin-right: 30px;
+	margin-right: 40px;
 }
 
 .nav-list span {
@@ -56,6 +58,6 @@ a {
 span a:hover {
 	color: #12724f;
 }
-.active-link {
+.active {
 	color: #12724f;
 }

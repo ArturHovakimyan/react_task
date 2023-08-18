@@ -1,13 +1,19 @@
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
+import Header from "src/components/Header";
+import Footer from "src/components/Footer";
 
 const Layout = () => {
 	return (
 		<>
 			<header>
-				<Link to="/blog">BlogPage</Link>
+				<Header />
 			</header>
-           <Outlet />
-           <footer>2023</footer>
+			<main>
+				<Outlet />
+			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	);
 };
