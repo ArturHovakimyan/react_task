@@ -1,30 +1,28 @@
-/* style.css */
-
-.pageFirstItem-box {
+.pageInfo-box {
   display: flex;
   align-items: center;
   padding: 50px;
-  background-color: #F4F9FF
-;
+  background-color: #F4F9FF;
 }
 
-.pageFirstItem-text {
+.pageInfo-text {
   flex: 1;
   padding: 0 20px;
 }
 
-.pageFirstItem-text h2 {
+.pageInfo-text h2 {
+  color: #12724F;
   font-size: 1.8rem;
   margin-bottom: 15px;
 }
 
-.pageFirstItem-text p {
+.pageInfo-text p {
   font-size: 1rem;
   margin-bottom: 20px;
   color: #555;
 }
 
-.pageFirstItem-text button {
+.pageInfo-text button {
   padding: 10px 20px;
   background-color: #12724F;
   color: #fff;
@@ -35,15 +33,15 @@
   transition: background-color 0.3s ease;
 }
 
-.pageFirstItem-text button:hover {
+.pageInfo-text button:hover {
   background-color: #0a5f40;
 }
 
-.pageFirstItem-photo {
+.pageInfo-photo {
   flex: 1;
 }
 
-.pageFirstItem-photo img {
+.pageInfo-photo img {
   max-width: 100%;
   height: auto;
 }

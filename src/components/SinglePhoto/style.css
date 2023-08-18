@@ -1,0 +1,17 @@
+
+.single-photo-container {
+    position: relative;
+}
+
+.single-photo-up-right-side{
+    position: absolute;
+    z-index: 5;
+    left: 272px;
+    top: 0 ;
+}
+.single-photo-product{
+    position: absolute;
+    z-index: 5;
+    top: 100px;
+    left: 10px;
+}
