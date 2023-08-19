@@ -3,16 +3,23 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: "Bokonique", sans-serif;
+}
+
 a {
 	text-decoration: none;
 	color: black;
 }
+
 .header {
 	background: #ffff;
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	height: 78px;
+	padding: 0 40px;
 }
 
 .universal-header {
@@ -21,27 +28,24 @@ a {
 	justify-content: center;
 	width: 150px;
 	height: 78px;
-    margin-left: 40px;
 }
 
-
 .nav-list {
-	margin-right: 10px;
 	display: flex;
 	align-items: center;
-	margin-right: 40px;
+	gap: 30px;
 }
 
 .nav-list span {
-	padding: 10px;
 	cursor: pointer;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 .image-box {
 	display: flex;
-	width: 60px;
-	height: 30px;
+	align-items: center;
+	gap: 3px;
+	cursor: pointer;
 }
 .image {
 	width: 30px;

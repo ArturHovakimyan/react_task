@@ -1,0 +1,48 @@
+.productsPage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    max-width: 1362px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 39px 0 36px 0;
+}
+
+.productsPage-header {
+    color: #12724F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 71px;
+}
+
+.productsPage-container h2{
+    width: 100%;
+    height: 100px;
+    color: #12724F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showMore-btn {
+    padding: 20px 34px;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    background: #12724F;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    margin-top: 5px;
+}

@@ -1,0 +1,16 @@
+.product-badge-container {
+    padding: 110px 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 434px;
+    width: 100%;
+    border-radius: 14px;
+    background: #DDD;
+}
+
+.product-badge-img {
+    width: 391.5px;
+    height: 261px;
+    object-fit: contain;
+}

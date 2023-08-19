@@ -1,35 +1,47 @@
+.pageInfo-wrapper {
+  background-color: #F4F9FF;
+  padding: 105px 0 120px 0;
+}
+
 .pageInfo-box {
+  max-width: 1248px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 50px;
-  background-color: #F4F9FF;
+  gap: 162px;
+  transform: translate(-33px);
 }
 
-.pageInfo-text {
-  flex: 1;
-  padding: 0 20px;
+.pageInfo-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 39px;
+  align-items: flex-start;
+  justify-content: center;
 }
 
-.pageInfo-text h2 {
+.pageInfo-Header {
   color: #12724F;
-  font-size: 1.8rem;
-  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
 }
 
-.pageInfo-text p {
+.pageInfo-Text {
   font-size: 1rem;
-  margin-bottom: 20px;
-  color: #555;
+  color: #1E1E1E;
 }
 
-.pageInfo-text button {
-  padding: 10px 20px;
+.pageInfo-btn {
+  padding: 20px 39px;
   background-color: #12724F;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  outline: none;
+  border-radius: 14px;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 18px;
   transition: background-color 0.3s ease;
 }
 
@@ -37,11 +49,26 @@
   background-color: #0a5f40;
 }
 
-.pageInfo-photo {
-  flex: 1;
+.img-wrapper {
+  position: relative;
+  max-width: 555px;
+  width: 100%;
+  z-index: 100;
 }
 
-.pageInfo-photo img {
-  max-width: 100%;
-  height: auto;
+.img-wrapper > svg {
+  width: 366px;
+  height: 366px;
+  object-fit: contain;
+  position: absolute;
+  top: 30%;
+  right: -30%;
+  z-index: 10;
+}
+
+.img {
+  position: relative;
+  width: 100%;
+  object-fit: contain;
+  z-index: 100;
 }

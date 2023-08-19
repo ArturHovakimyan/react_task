@@ -1,0 +1,42 @@
+.partners-container {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    max-width: 1362px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.partners-header {
+    color: #12724F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.partners-badges {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    row-gap: 32px;
+    flex-wrap: wrap;
+}
+
+.partners-btn {
+    padding: 20px 30px;
+    border-radius: 14px;
+    background: #12724F;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 27px;
+}

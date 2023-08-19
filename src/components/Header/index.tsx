@@ -39,7 +39,9 @@ const Header = () => {
 						alt="flag"
 						className="image"
 					/>
-					<img src="icons/2985150.png" alt="icon" className="image-icon" />
+					<svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.21094 1L3.80041 4.45263L6.82146 1" stroke="#A99E9E" strokeWidth="0.863158"/>
+					</svg>
 				</div>
 			</div>
 		</div>

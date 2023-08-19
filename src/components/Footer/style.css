@@ -1,55 +1,91 @@
+.footer-bar-wrapper {
+	background-color: #12724f;
+	display: flex;
+	flex-direction: column;
+	gap: 90px;
+	padding-bottom: 17px;
+}
+
 .footer-bar {
+	max-width: 1362px;
 	width: 100%;
-	height: 342px;
+	margin: 0 auto;
+	padding: 50px 0 0 0;
 	display: flex;
 	justify-content: space-between;
+}
+
+.footer-logo {
+	width: 167px;
+	height: 84px;
+	object-fit: contain;
+	cursor: pointer;
+}
+
+.footer-links {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 	align-items: flex-start;
-	padding: 20px;
-	background-color: #12724f;
 }
 
-.footer-logo-box img {
-	max-width: 100px;
-	height: auto;
+.footer-links-header {
+	color: #FFF;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	text-transform: uppercase;
 }
 
-.footer-bar h2 {
-	font-size: 1.5rem;
-	margin-bottom: 10px;
-    color: #FFFFFF;
+.footer-bar-link {
+	color: #FFF;
+	font-size: 12.5px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 124%;
+	text-transform: uppercase;
+	margin-left: 15px;
 }
 
-.footer-bar ul {
-	padding: 10px;
-	margin: 10px;
+.footer-bar-contacts {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	align-items: flex-start;
 }
 
-.footer-bar li {
-	margin-bottom: 7px;
-    color: #FFFFFF;
+.footer-bar-contact {
+	display: flex;
+	gap: 5px;
+	align-items: center;
 }
 
-.footer-bar p {
+.footer-bar-contact > span {
+	color: #FFF;
+	font-size: 12.5px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.footer-bar-social {
 	display: flex;
 	align-items: center;
-	margin-bottom: 7px;
-    color: #FFFFFF;
+	gap: 16px;
 }
 
-.footer-bar p img {
-	max-width: 20px;
-	height: auto;
-	margin-right: 10px;
+.footer-bar-social > img {
+	width: 49.5px;
+	height: 49.5px;
+	object-fit: contain;
 }
 
-.footer-bar div:last-child img {
-	max-width: 30px;
-	height: auto;
-	margin-right: 10px;
-}
-
-.footer-bar div:last-child {
-	text-align: center;
-	font-size: 0.8rem;
-	color: black;
+.footer-bar-text {
+	color: #FFF;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 124%;
+	align-self: center;
 }

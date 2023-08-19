@@ -1,6 +1,7 @@
 import PageInfo from "src/components/PageInfo";
-
-import PageSecondItem from "./homePageItems/PageProducts";
+import PageProductsList from "../ProductsPage";
+import Feedback from "src/components/Feedback";
+import Partners from "src/components/Partners";
 
 const HomePage = () => {
 	return (
@@ -10,9 +11,16 @@ const HomePage = () => {
 					name={"ԱՌԱՋԻՆԸ ՀԱՅԱՍՏԱՆՈՒՄ"}
 					text={`Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և
 					ոչ մանրէազերծված բժշկական վիրակապեր արտադրող;`}
-					img={"photos/svg"}
+					img={"photos/productInfoPhoto/productInfoPhotoFirst/svg"}
 				/>
-				<PageSecondItem />
+				<PageProductsList />
+				<PageInfo
+					name={"ԲԺՇԿԱԿԱՆ ՊԱՐԱԳԱՆԵՐԻ ՍՏԵՐԻԼԻԶԱՑՈՒՄ"}
+					text={"Մենք առաջարկում ենք բժշկական պարագաների ստերիլիզացում"}
+					img={"photos/productInfoPhoto/productInfoPhotoSecond/svg"}
+				/>
+				<Partners />
+				<Feedback />
 			</div>
 		</>
 	);
