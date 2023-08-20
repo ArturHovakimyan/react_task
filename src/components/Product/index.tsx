@@ -1,9 +1,13 @@
+import { Routes, Route } from "react-router-dom";
+import LayoutProduct from "src/components/LayoutProduct";
 const Product = () => {
-  return (
-		<div>
-			<h2>Product</h2>
-		</div>
+	return (
+		<>
+			<Routes>
+				<Route path="/" element={<LayoutProduct />}></Route>
+			</Routes>
+		</>
 	);
-}
+};
 
-export default Product
+export default Product;
