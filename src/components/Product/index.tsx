@@ -1,11 +1,12 @@
-import { Routes, Route } from "react-router-dom";
-import LayoutProduct from "src/components/LayoutProduct";
+import { Outlet } from "react-router-dom";
+import MinHeader from "src/components/MinHeader";
+
+
 const Product = () => {
 	return (
 		<>
-			<Routes>
-				<Route path="/" element={<LayoutProduct />}></Route>
-			</Routes>
+			<MinHeader />
+			<Outlet/>
 		</>
 	);
 };

@@ -1,5 +1,5 @@
 import PageInfo from "src/components/PageInfo";
-import PageProductsList from "../ProductsPage";
+import ProductsPage from "src/components/ProductsPage";
 import Feedback from "src/components/Feedback";
 import PartnersList from "src/components/PartnersList";
 import "./style.css"
@@ -14,7 +14,7 @@ const HomePage = () => {
 					ոչ մանրէազերծված բժշկական վիրակապեր արտադրող;`}
 					img={"photos/productInfoPhoto/productInfoPhotoFirst/svg"}
 				/>
-				<PageProductsList />
+				<ProductsPage />
 				<PageInfo
 					name={"ԲԺՇԿԱԿԱՆ ՊԱՐԱԳԱՆԵՐԻ ՍՏԵՐԻԼԻԶԱՑՈՒՄ"}
 					text="Մենք առաջարկում ենք բժշկական պարագաների ստերիլիզացում"
