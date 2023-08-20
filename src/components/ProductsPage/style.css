@@ -1,4 +1,7 @@
 .productsPage-container {
+    position: relative;
+    width: 1514;
+    height: 1297px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,17 +13,27 @@
 }
 
 .productsPage-header {
+    position: absolute;
+    top: 39px;
+    left: 624px;
     color: #12724F;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
 }
 
+.products-page-continer{
+    position: absolute;
+    top: 120px;
+    left: 68px;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    row-gap: 71px;
+    justify-content: space-around;
+    width: 1362px;
+    height: 1035px;
 }
 
 .productsPage-container h2{
@@ -33,6 +46,9 @@
 }
 
 .showMore-btn {
+    position: absolute;
+    top: 1199px;
+    left: 635px;
     padding: 20px 34px;
     border: none;
     outline: none;

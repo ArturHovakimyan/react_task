@@ -1,4 +1,6 @@
 .pageInfo-wrapper {
+  width: 1514px;
+  height: 588px;
   background-color: #F4F9FF;
   padding: 105px 0 120px 0;
 }
@@ -68,7 +70,8 @@
 
 .img {
   position: relative;
-  width: 100%;
+  width: 555;
+  height: 363px;
   object-fit: contain;
   z-index: 100;
 }

@@ -1,0 +1,50 @@
+.home-page-conteiner{
+    position: relative;
+    width: 1512px ;
+    height: 1301px;
+}
+
+.partners-header {
+    position: absolute;
+    top: 60px;
+    left: 583px;
+    color: #12724F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.partners-btn {
+    position: absolute;
+    padding: 20px 30px;
+    border-radius: 14px;
+    background: #12724F;
+    top: 0;
+    left: 639px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home-page-span{
+    position: relative;
+    width: 1512px;
+    height: 108px;
+}
+
+.home-page-btn{
+    position: absolute;
+    top: 1200px;
+    width: 1512px;
+    height: 108px;
+}
+.home-page-conteiner-partnors-list{
+    position: absolute;
+    
+}

@@ -1,7 +1,8 @@
 import PageInfo from "src/components/PageInfo";
 import PageProductsList from "../ProductsPage";
 import Feedback from "src/components/Feedback";
-import Partners from "src/components/Partners";
+import PartnersList from "src/components/PartnersList";
+import "./style.css"
 
 const HomePage = () => {
 	return (
@@ -16,10 +17,20 @@ const HomePage = () => {
 				<PageProductsList />
 				<PageInfo
 					name={"ԲԺՇԿԱԿԱՆ ՊԱՐԱԳԱՆԵՐԻ ՍՏԵՐԻԼԻԶԱՑՈՒՄ"}
-					text={"Մենք առաջարկում ենք բժշկական պարագաների ստերիլիզացում"}
-					img={"photos/productInfoPhoto/productInfoPhotoSecond/svg"}
+					text="Մենք առաջարկում ենք բժշկական պարագաների ստերիլիզացում"
+					img="photos/productInfoPhoto/productInfoPhotoSecond/svg"
 				/>
-				<Partners />
+				<div className="home-page-conteiner">
+					<div className="home-page-span">
+						<span className="partners-header">ԳՈՐԾԸՆԿԵՐՆԵՐ</span>
+					</div>
+					<div className="home-page-conteiner-partnors-list">
+						<PartnersList />
+					</div>
+					<div className="home-page-btn">
+						<button className="partners-btn">ՏԵՍՆԵԼ ԱՄԲՈՂՋԸ</button>
+					</div>
+				</div>
 				<Feedback />
 			</div>
 		</>

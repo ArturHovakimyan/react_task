@@ -1,11 +1,20 @@
 import "./style.css";
 const AboutUs = () => {
 	return (
-		<div className="Agout-Us-contiener">
-			<span>ՄԵՐ ՄԱՍԻՆ</span>
-			<div>
-				<img src="photos/photosAdoutUs/Rectangle 104.png" alt="photoDoctor" />
-				<span>
+		<div className="about-Us-conteiner">
+			<span className="about-us-text">ՄԵՐ ՄԱՍԻՆ</span>
+			<div className="about-us-first-conteiner">
+				<img
+					className="about-us-img-first"
+					src="photos/photosAdoutUs/Rectangle 104.png"
+					alt="photoDoctor"
+				/>
+				<img
+					className="about-Us-C-first"
+					src="photos/photosAdoutUs/Ellipse 2.png"
+					alt="C"
+				/>
+				<span className="about-as-text-content-first">
 					Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և
 					ոչ մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply
 					dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -27,8 +36,8 @@ const AboutUs = () => {
 					including versions of Lorem Ipsum.
 				</span>
 			</div>
-			<div>
-				<span>
+			<div className="about-us-second-conteiner">
+				<span className="about-as-text-content-second">
 					Բինտեր, թանզիֆե մանրէազերծված բժշկական անձեռոցիկներ, մանրէազերծված և
 					ոչ մանրէազերծված բժշկական վիրակապեր արտադրող;Lorem Ipsum is simply
 					dummy text of the printing and typesetting industry. Lorem Ipsum has
@@ -49,7 +58,16 @@ const AboutUs = () => {
 					more recently with desktop publishing software like Aldus PageMaker
 					including versions of Lorem Ipsum.
 				</span>
-				<img src="photos/photosAdoutUs/Rectangle 105.png" alt="photoGlovs" />
+				<img
+					className="about-us-img-second"
+					src="photos/photosAdoutUs/Rectangle 105.png"
+					alt="photoGlovs"
+				/>
+				<img
+					className="about-us-img-C"
+					src="photos/photosAdoutUs/Ellipse 1.png"
+					alt="C"
+				/>
 			</div>
 		</div>
 	);

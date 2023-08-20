@@ -1,4 +1,6 @@
 .footer-bar-wrapper {
+	height: 342px;
+	width: 1544px;
 	background-color: #12724f;
 	display: flex;
 	flex-direction: column;

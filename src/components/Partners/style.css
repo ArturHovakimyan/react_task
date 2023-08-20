@@ -1,4 +1,6 @@
-.partners-container {
+/* .partners-container {
+    width: 1512px;
+    position: relative;
     padding: 60px 0;
     display: flex;
     flex-direction: column;
@@ -10,6 +12,9 @@
 }
 
 .partners-header {
+    position: absolute;
+    top: 60px;
+    left: 583px;
     color: #12724F;
     font-size: 40px;
     font-style: normal;
@@ -19,14 +24,19 @@
 }
 
 .partners-badges {
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    row-gap: 32px;
+   display: flex;
+   width: 1362px;
+    height: 1035px;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
-
+.partners-smoll-container{
+    position: absolute;
+    top: 140px;
+    left: 76px;
+}
 .partners-btn {
+    position: absolute;
     padding: 20px 30px;
     border-radius: 14px;
     background: #12724F;
@@ -38,5 +48,28 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 27px;
+} */
+.partners-container {
+    width: 1512px;
+    height: 1131px;
+    position: relative;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    max-width: 1362px;
+    width: 100%;
+    margin: 0 auto;
+}.partners-badges {
+   display: flex;
+   width: 1362px;
+    height: 1035px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partners-smoll-container{
+    position: absolute;
+    top: 68px;
+    left: 77px;
 }

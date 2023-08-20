@@ -1,0 +1,23 @@
+.partners-container {
+    width: 1512px;
+    position: relative;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    max-width: 1362px;
+    width: 100%;
+    margin: 0 auto;
+}.partners-badges {
+   display: flex;
+   width: 1362px;
+    height: 1035px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.partners-smoll-container{
+    position: absolute;
+    top: 140px;
+    left: 76px;
+}
